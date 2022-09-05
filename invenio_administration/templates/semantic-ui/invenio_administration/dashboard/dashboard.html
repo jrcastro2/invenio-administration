@@ -9,6 +9,16 @@
 
 {% block admin_page_content %}
 
-Put content here
+<div class="ui grid">
+  <div class="eight wide column" id="featured-communities-table-view-widget"> </div>
+  <div class="eight wide column" id="community-table-view-widget"> </div>
+  <div class="eight wide column" id="oaipmh-table-view-widget"> TEST</div>
+  <div class="eight wide column" id="stats-widget-TODO"></div>
+</div>
 
 {% endblock admin_page_content %}
+
+{% block javascript %}
+  {{ super() }}
+  {{ webpack['invenio-administration-dashboard.js'] }}
+{% endblock %}

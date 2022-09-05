@@ -21,6 +21,8 @@ theme = WebpackThemeBundle(
             entry={
                 "invenio-administration-search":
                     "./js/invenio_administration/search/search.js",
+                "invenio-administration-dashboard":
+                    "./js/invenio_administration/dashboard/index.js",
                 "base-admin-theme":
                     "./js/invenio_administration/theme.js"
             },
