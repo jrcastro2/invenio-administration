@@ -7,7 +7,7 @@ import _get from "lodash/get";
 import _isEmpty from "lodash/isEmpty";
 import _upperFirst from "lodash/upperFirst";
 
-class TableListView extends React.Component {
+export default class TableListView extends React.Component {
   constructor() {
     super();
     this.state = {
